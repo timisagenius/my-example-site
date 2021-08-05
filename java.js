@@ -1,0 +1,49 @@
+$(".sec-slide").owlCarousel({
+    loop:true,
+    margin:10,
+    responsiveClass:true,
+    nav:true,
+    dots:true,
+    responsive:{
+        0:{
+            items:1,
+            nav:true,
+        },
+        600:{
+            items:2,
+            nav:true,
+        },
+        1000:{
+            items:3,
+            nav:true,
+            loop:true,
+        }
+    }
+})
+$('.main-colg').owlCarousel({
+    loop:true,
+    margin:20,
+    responsiveClass:true,
+    autoplay:true,
+    autoplayHoverPause:true,
+    nav:false,
+    dots:false,
+    autoplaySpeed: 10000,
+    autoplayTimeout: 10000,
+    slideTransition: 'linear',
+    stagePadding:80,
+    responsive:{
+        0:{
+            items:1,
+            loop:true
+        },
+        600:{
+            items:1,
+            loop:true
+        },
+        1000:{
+            items:1,
+            loop:true
+        }
+    }
+})
